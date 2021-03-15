@@ -1,4 +1,4 @@
-package Creational.Strategy;
+package Behavioral.Strategy;
 
 /**
  * 上下文

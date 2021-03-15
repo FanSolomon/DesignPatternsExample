@@ -1,4 +1,4 @@
-package Creational.Strategy;
+package Behavioral.Strategy;
 
 public class OperationSubtract implements Strategy {
     @Override
