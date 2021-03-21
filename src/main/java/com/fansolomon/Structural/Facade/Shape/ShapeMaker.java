@@ -1,0 +1,27 @@
+package com.fansolomon.Structural.Facade.Shape;
+
+import com.fansolomon.Structural.Facade.Shape.impl.Circle;
+import com.fansolomon.Structural.Facade.Shape.impl.Rectangle;
+import com.fansolomon.Structural.Facade.Shape.impl.Square;
+
+public class ShapeMaker {
+    private Shape circle;
+    private Shape rectangle;
+    private Shape square;
+
+    public ShapeMaker() {
+        circle = new Circle();
+        rectangle = new Rectangle();
+        square = new Square();
+    }
+
+    public void drawCircle(){
+        circle.draw();
+    }
+    public void drawRectangle(){
+        rectangle.draw();
+    }
+    public void drawSquare(){
+        square.draw();
+    }
+}
